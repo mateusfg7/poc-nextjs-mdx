@@ -24,6 +24,14 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+
+    @apply p-5;
+}
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
 }
 
 @layer utilities {
